@@ -1,28 +1,22 @@
-# Create T3 App
+# AI Title Hackathon Starter
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+I'm offering $1000, or up to 10% of my new tool's revenue for the next YEAR, in exchange for the best YouTube AI Title Generator imaginable.
 
-## What's next? How do I make an app with this?
+This is a mini starter repo to help you with some common things so you can get off running.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+# Starting
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+1. Run these commands: 
+`git clone https://github.com/roxworks/ai-title-hack-starter`
+`cd ai-title-hack-starter`
+`npm i`
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+2. [Download yt-dlp](https://github.com/yt-dlp/yt-dlp/wiki/Installation)
 
-## Learn More
+3. Setup an openai account
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+4. Setup an openrouter account
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+5. Replace variables in .env with your openai and openrouter api keys
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+6. Get hacking - replace code in utils/generateTitles
