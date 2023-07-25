@@ -7,8 +7,11 @@ This is a mini starter repo to help you with some common things so you can get o
 # Starting
 
 1. Run these commands: 
+
 `git clone https://github.com/roxworks/ai-title-hack-starter`
+
 `cd ai-title-hack-starter`
+
 `npm i`
 
 2. [Download yt-dlp](https://github.com/yt-dlp/yt-dlp/wiki/Installation)
